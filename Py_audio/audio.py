@@ -9,7 +9,7 @@ pygame.init()
 pygame.mixer.init()
 
 # Load audio files
-pygame.mixer.music.load("fever.wav")
+pygame.mixer.music.load("meg.wav")
 alert_sound = pygame.mixer.Sound("spo2-bpm.wav")
 
 while True:

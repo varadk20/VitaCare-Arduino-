@@ -108,11 +108,11 @@
       if (showReport && sensorStopped) {  // Ensure report is shown only after stopping
           lcd.clear();
           lcd.setCursor(0, 0);
-          lcd.print("11th SpO2: ");
+          lcd.print("SpO2: ");
           lcd.print(spo2Readings[10]);
           lcd.print("%");
           lcd.setCursor(0, 1);
-          lcd.print("11th BPM: ");
+          lcd.print("BPM: ");
           lcd.print(hrReadings[10]);
 
           // Only print alert once

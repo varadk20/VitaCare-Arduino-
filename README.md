@@ -37,6 +37,7 @@ Inventor** Then use app downloading apk or in companion mode.
 
     * Download the project and upload the `combine.ino` to Arduino.
     * Connect to `HC05` using the app.
+    * Voice commands that show on LCD. `status` for IR temperature readings and `report` for bpm and spo2.
     * From `Py_audio` folder run the `audio.py`. This will play the recorded precautions on abnormal readings of user.
     * Using `Translate` button in app we can translate text from english to Marathi.
     * We can send SMS of all details to users entering their phone number.
